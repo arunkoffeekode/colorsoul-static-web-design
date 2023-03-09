@@ -1,0 +1,495 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport" />
+    <title>Colorsoul - Redefining Beauty</title>
+    <!-- favicon -->
+    <!--sweetalert2 css-->
+    <link rel="stylesheet" type="text/css" href="plugins/sweet-alert/sweetalert2.min.css">
+
+    <link rel="apple-touch-icon" sizes="57x57" href="images/favicon.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="images/favicon.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="images/favicon.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="images/favicon.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="images/favicon.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="images/favicon.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="images/favicon.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="images/favicon.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="images/favicon.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="images/favicon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="images/favicon.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon.png">
+    <link rel="manifest" href="images/favicon.png">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="images/favicon.png">
+    <meta name="theme-color" content="#ffffff">
+
+    <!--Boostrap Core Css Start-->
+    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="css/ionicon.min.css">
+    <link rel="stylesheet" href="css/feathericon.min.css">
+    <!--Boostrap Core Css end-->
+    <!--Google Font Css Start-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Darker+Grotesque:wght@300;400;500;600;700;800;900&family=Lexend:wght@100;200;300;400;500;600;700;800;900&family=Rowdies:wght@300;400;700&display=swap"
+        rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Darker+Grotesque:wght@300;400;500;600;700;800;900&family=Lexend:wght@100;200;300;400;500;600;700;800;900&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rowdies:wght@300;400;700&display=swap"
+        rel="stylesheet">
+
+    <!--Google Font Css end-->
+    <!--External Core Css start-->
+    <link href="css/default.css" rel="stylesheet" type="text/css" />
+    <link href="css/style.css" rel="stylesheet" type="text/css" />
+    <link href="css/responsive.css" rel="stylesheet" type="text/css" />
+    <link href="css/animate.min.css" rel="stylesheet" />
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="plugins/bootstrap/bootstrap.min.css">
+    <!-- Animation -->
+    <link rel="stylesheet" href="plugins/animate-css/animate.css">
+
+
+</head>
+
+<body>
+    <div class="top-bg">
+        <div class="topbar-area">
+            <div class="container-fluid">
+                <div class="row" style="align-items: center;">
+                    <div class="col-lg-4 col-md-3 col-6 col-xl-4 order-1 order-md-1">
+                        <div class="logotext desk-logo"><a href="#"><img src="images/logo.png" alt="">
+                            </a>
+                        </div>
+                        <div class="sticky-logo"><a href="#"><img src="images/sticky-logo.png" alt="">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-xl-6 col-12 order-3 order-md-2">
+                        <div class="search">
+                            <div class="input-group">
+                                <input type="text" name="search" value="" class="form-control"
+                                    placeholder="Search Here..">
+                                <button class="input-group-text"><i class="fa fa-search"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-md-3 col-xl-2 col-6 order-2 order-md-3">
+                        <div class="register">
+                            <ul>
+                                <li class="top-cart">
+                                    <a href="" id="cart">
+                                        <img src="images/heart.png" alt="">
+                                    </a>
+                                </li>
+                                <li class="top-cart">
+                                    <a href="#" id="cart">
+                                        <img src="images/user.png" alt="">
+                                    </a>
+                                    <div class="account-dropdown">
+                                        <div class="login-details">
+                                            <ul>
+                                                <li>
+                                                    <div class="logout">
+                                                        <a href="#" class="btn-logout">login</a>
+                                                    </div>
+                                                </li>
+                                                <!-- <li
+                                                    style="border-bottom: 0.3px solid #999999;margin-bottom: 10px;padding-bottom: 10px;">
+                                                    <a href="#">New Customer? Start hear</a>
+                                                </li> -->
+                                                <li
+                                                    style="border-bottom: 0.3px solid #999999;margin-bottom: 10px;padding-bottom: 10px;">
+                                                    <a href="#">Your Account <small></small></a>
+                                                </li>
+                                                <li><a href="#">Your Order</a></li>
+                                                <li><a href="#">Your Wishlist </a></li>
+                                                <li><a href="#">Customer Suport</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="top-cart">
+                                    <a href="#" id="cart">
+                                        <img src="images/cart-img.png" alt=""> <span class="badge cart_count">0</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <header>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xl-12">
+
+                    <div class="menu-item">
+                        <ul>
+
+                            <li>
+                                <a href="#" class="">BEST SELLERS</a>
+                            </li>
+                            <li>
+                                <a href="#" class="">NAILS</a>
+                            </li>
+                            <li>
+                                <a href="#" class="">LIPS</a>
+                            </li>
+                            <li>
+                                <a href="#" class="">EYES</a>
+                            </li>
+                            <li>
+                                <a href="#" class="">FACE</a>
+                            </li>
+
+                            </li>
+                        </ul>
+                        <div class="more">
+                            <button type="button" class="more-btn-add">More</button>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </header>
+
+    <!-- sticky-header-start -->
+    <div id="navbar_top" class="header-item-center d-none animate fadeInUp one">
+        <div class="top-bg">
+            <div class="topbar-area">
+                <div class="container-fluid">
+                    <div class="row" style="align-items: center;">
+                        <!-- <div class="col-lg-1 col-md-3 col-6 col-xl-1">
+                        
+                        </div> -->
+                        <div class="col-lg-6">
+
+                            <div class="menu-item">
+                                <ul>
+                                    <li>
+                                        <img src="images/sticky-logo.png" alt="">
+                                    </li>
+
+                                    <li>
+                                        <a href="#" class="">BEST SELLERS</a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="">NAILS</a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="">LIPS</a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="">EYES</a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="">FACE</a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="">More</a>
+                                    </li>
+                                </ul>
+                            </div>
+
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-xl-4 col-12">
+                            <div class="search ">
+                                <div class="input-group">
+
+                                    <input type="text" name="search" value="" class="form-control"
+                                        placeholder="Search Here..">
+                                    <button class="input-group-text"><i class="fa fa-search"></i>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-2 col-md-3 col-xl-2 col-6">
+                            <div class="register">
+                                <ul>
+                                    <li class="top-cart">
+                                        <a href="#" id="cart">
+                                            <img src="./images/heart.png" alt="">
+                                        </a>
+                                    </li>
+                                    <li class="top-cart">
+                                        <a href="#" id="cart">
+                                            <img src="images/user.png" alt="">
+                                        </a>
+                                        <div class="account-dropdown">
+                                            <div class="login-details">
+                                                <ul>
+                                                    <li>
+                                                        <div class="logout">
+                                                            <a href="#" class="btn-logout">login</a>
+                                                        </div>
+                                                    </li>
+                                                    <!-- <li
+                                                        style="border-bottom: 0.3px solid #999999;margin-bottom: 10px;padding-bottom: 10px;">
+                                                        <a href="">New Customer? Start hear</a>
+                                                    </li> -->
+                                                    <li
+                                                        style="border-bottom: 0.3px solid #999999;margin-bottom: 10px;padding-bottom: 10px;">
+                                                        <a href="">Your Account <small></small></a>
+                                                    </li>
+                                                    <li><a href="#">Your Order</a></li>
+                                                    <li><a href="#">Your Wishlist </a></li>
+                                                    <li><a href="#">Customer Suport</a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="top-cart">
+                                        <a href="#" id="cart">
+                                            <img src="images/cart-img.png" alt=""> <span
+                                                class="badge cart_count">0</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <section class="bh">
+        <div class="container-fluid">
+            <div class="row frame1">
+                <div class="col-lg-12">
+                    <div class="details1">
+                        <div class="d-block">
+                            <h1>LIP CARE</h1>
+                            <p>The skin on your lips are thinner than any other body part making it verysensensitive and
+                                vulnarable if not taken proper care.</p>
+                            <p>So heres a few tips to add to your lip care routine and achieve healthy and beautiful
+                                lips
+                                always.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item frame1 active">
+                <img class="d-block w-100" src="images/home-care.jpg" alt="First slide">
+                <div class="details1">
+                    <div class="d-block">
+                        <h1>LIP CARE</h1>
+                        <p>The skin on your lips are thinner than any other body part making it verysensensitive and
+                            vulnarable if not taken proper care.</p>
+                        <p>So heres a few tips to add to your lip care routine and achieve healthy and beautiful lips
+                            always.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> -->
+    <section class="lips">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-xl-12 col-sm-12">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-10 col-md-10 col-xl-10 col-sm-12">
+                            <div class="lips-img">
+                                <div class="frame active">
+                                    <img src="images/lips-game.jpg">
+                                    <div class="details">
+                                        <div class="d-block">
+                                            <h1>MASTER THE ‘LIP GAME’</h1>
+                                            <p>The
+                                                Colorsoul
+                                                range of Lipsticks are 100% vegan,contain natural ingredients, are
+                                                enriched with the goodness of Jojoba Oil, Vitamin E, Almond Oil and SPF
+                                                15 to give your lips the best care and protection while making it look
+                                                amazing.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="start-lips">
+                        <h2>The Prep</h2>
+                        <p>Before applying any lipstick, you need to make sure you have a clean and smoothbase which can
+                            be achieved by exfoliating the lips. Start off by scrubing your lips to removeall dead skin.
+                            Wipe your lips to ensure your lips are clean and ready for the final look. </p>
+                    </div>
+                    <div class="start-lips">
+                        <h2>The Lip stick</h2>
+                        <p>Start by applying the lipstick of your choice on the center of your upper lip. Follow your
+                            lipline for best accuracy and fill in your lips from the centre to both the corners. Repeat
+                            the same process for your lower lip. Repeat if necessary, but avoid over applying as this
+                            could result in product build up and make your lipstick look patchy. </p>
+                    </div>
+
+                </div>
+                <div class="col-lg-12 col-md-12 col-xl-12 col-sm-12">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-10 col-md-10 col-xl-10 col-sm-12">
+                            <div class="lips-img">
+                                <div class="frame active">
+                                    <img src="images/lips-care.jpg">
+                                    <div class="details">
+                                        <div class="d-block">
+                                            <h1>MASTER THE ‘LIP CARE’</h1>
+                                            <p>Lip care is essential for everyone you need a proper routineto achieve
+                                                soft, supple lips. Here are a few tips on lip care for healthy and
+                                                beautiful lips.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="start-lips">
+                        <h2>Exfoliate</h2>
+                        <p>Dry, chappy lips can indicate that your lips need more love and care. Exfoliating is
+                            essentialto achieve amazing-looking lips naturally. It eliminates the dead skin on your lips
+                            andstimulates circulation and blood flow making your lips plumpy and soft. Since
+                            over-exfoliatingcan cause swelling, sensitivity, and bleeding, you should exfoliate only
+                            once a week.</p>
+                    </div>
+                    <div class="start-lips">
+                        <h2>Treat</h2>
+                        <p>Treating your lips with the help of serums if there are signs of dullness or fine lineswill
+                            help achieve faster results. Lip Serum effortlessly penetrates the skin and can address
+                            mostlip concerns you might have.</p>
+                    </div>
+                    <div class="start-lips">
+                        <h2>Hydrate</h2>
+                        <p>Our lips are delicate and need constant hydration for the best lip health. Hydrationis the
+                            most important part of lip care. Moisturizing your lips consistently with natural products
+                            likeShea butter and drinking a lot of water help achieve beautiful and healthy lips.</p>
+                    </div>
+                    <div class="start-lips">
+                        <h2>Mask </h2>
+                        <p>To get the best of hydration, you can choose to apply a lip mask over your lip balm tolock in
+                            the moisture. Lip masks are usually thicker, it's usually best to use them at nightfor
+                            intense hydration.</p>
+                    </div>
+                    <div class="start-lips">
+                        <h2>protect </h2>
+                        <p>Your lips need constant protection from harsh sun rays. Always apply lip productswith SPF to
+                            protect your lips during the daytime. The
+                            <strong>Colorsoul</strong>
+                            range of lipsticksenriched with SPF 15 helps with the ultimate protection against the sun.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="footer">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-3 col-md-6 col-sm-12 col-xl-3">
+                    <div class="footer-links-1">
+                        <div class="footer-title">
+                            <img src="./images/link.png">
+                            <h5>Quick Links</h5>
+                        </div>
+                        <ul>
+
+                            <li><a href="#">About Us</a></li>
+                            <li><a href="#">Careers</a></li>
+                            <li><a href="">influencer collab</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12 col-xl-3">
+                    <div class="footer-links-1">
+                        <div class="footer-title">
+                            <img src="./images/contact-us.png">
+                            <h5>Contact Us</h5>
+                        </div>
+                        <ul>
+                            <li><a href="#">Email ID : <span style="text-transform: lowercase;">info@colorsoul.co</span>
+                                </a></li>
+                            <li><a href="#">Sales Queries- sales@colorsoul.co</a></li>
+
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12 col-xl-3">
+                    <div class="footer-links-1">
+                        <div class="footer-title">
+                            <img src="./images/male.png">
+                            <h5>Your Account</h5>
+                        </div>
+                        <ul>
+                            <li><a href="">My Profile</a></li>
+                            <li><a href="">order status</a></li>
+                            <li><a href="">my favorites</a></li>
+
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12 col-xl-3">
+                    <div class="footer-links-1">
+                        <div class="footer-title">
+                            <img src="./images/policy.png">
+                            <h5>policies</h5>
+                        </div>
+                        <ul>
+                            <li><a href="#">privacy policy</a></li>
+                            <li><a href="#">csr policy</a></li>
+                            <li><a href="#">shipping info</a></li>
+                            <li><a href="#">return policy</a></li>
+                            <li><a href="#">terms & conditions</a></li>
+
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xl-12">
+                    <div class="socialfoot">
+                        <h4>stay connected</h4>
+                        <ul>
+                            <li><a target="_blank" href="#"><i class="fa fa-facebook fb"></i></a></li>
+                            <li><a target="_blank" href="#"><i class="fa fa-instagram insta"></i></a></li>
+                            <li><a target="_blank" href="#"><i class="fa fa-twitter in"></i></a></li>
+
+                        </ul>
+                    </div>
+                    <div class="copyright">
+                        <p>Copyright @ 2023,Colorsoul Beauty. all right reserved</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="js/lightbox-plus-jquery.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.0.47/jquery.fancybox.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/owl.carousel.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+
+</html>

@@ -266,6 +266,7 @@ header .offer-balck {
 
 .topbar-area .register ul li:last-child {
   margin-right: 0px;
+  margin-bottom: 0px!important;
 }
 
 .topbar-area .register .top-cart .account-dropdown {
@@ -778,10 +779,10 @@ header .offer-balck {
 .frame .details h1{width: 70%;margin: 0 auto;font-size: 50px;font-weight: 600;text-align: center;text-transform: uppercase;margin-bottom: 20px;line-height: 62px;color: #ffffff;}
 .frame .details p{font-size: 17px;font-weight: normal;text-align: center;line-height: 28px;color: #ffffff;}
 .frame1 .details1 {
-	width: 80%;
-	height: 80%;	
-	padding: 5% 8%;
-	position: absolute;
+	/* width: 95%;
+	height: 80%;	 */
+	padding: 12% 12%;
+	position: relative;
 	content: "";
 	top: 50%;
 	left: 50%;
@@ -791,8 +792,8 @@ header .offer-balck {
 	background: rgba(46, 26, 17,0.6);	
 	opacity: 0;
 	transition: all 0.4s ease-in;
-	display: flex;
-  align-items: center;
+	/* display: flex;
+  align-items: center; */
 }
 .frame1 .details1 {
 	transform: translate(-50%, -50%) rotateY(0deg);
@@ -800,3 +801,132 @@ header .offer-balck {
 }
 .frame1 .details1 h1{width: 70%;margin: 0 auto;font-size: 50px;font-weight: 600;text-align: center;text-transform: uppercase;margin-bottom: 20px;line-height: 60px;color: #ffffff;}
 .frame1 .details1 p{font-size: 17px;font-weight: normal;text-align: center;line-height: 28px;color: #ffffff;margin-bottom: 20px;}
+
+.animate {
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+.one {
+  -webkit-animation-delay: 0.3s;
+  -moz-animation-delay: 0.3s;
+  animation-delay: 0.3s;
+}
+/*==== FADE IN UP ===*/
+@-webkit-keyframes fadeInUp {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(0, 100%, 0);
+    transform: translate3d(0, 100%, 0);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(0, 100%, 0);
+    transform: translate3d(0, 100%, 0);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+
+.fadeInUp {
+  -webkit-animation-name: fadeInUp;
+  animation-name: fadeInUp;
+}
+.two {
+  -webkit-animation-delay: 1.5s;
+  -moz-animation-delay: 1.5s;
+  animation-delay: 1.5s;
+} 
+
+.four {
+  -webkit-animation-delay: 0.3s;
+  -moz-animation-delay: 0.3s;
+  animation-delay: 0.3s;
+}
+/*==== FADE IN RIGHT ===*/
+@-webkit-keyframes fadeInRight {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(100%, 0, 0);
+    transform: translate3d(100%, 0, 0);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+@keyframes fadeInRight {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(100%, 0, 0);
+    transform: translate3d(100%, 0, 0);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+
+.fadeInRight {
+  -webkit-animation-name: fadeInRight;
+  animation-name: fadeInRight;
+}
+/*=== FADE IN LEFT ===*/
+@-webkit-keyframes fadeInLeft {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(-100%, 0, 0);
+    transform: translate3d(-100%, 0, 0);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+@keyframes fadeInLeft {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(-100%, 0, 0);
+    transform: translate3d(-100%, 0, 0);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+
+.fadeInLeft {
+  -webkit-animation-name: fadeInLeft;
+  animation-name: fadeInLeft;
+}
+.bh{width: 100%;
+  float: left;
+  display: flex;
+  align-items: center;
+  /* height: 100vh; */
+  padding: 50px;
+  position: relative;
+  background: url(../images/home-care.jpg) no-repeat center top;
+  background-size: cover;
+}

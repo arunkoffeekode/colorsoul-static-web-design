@@ -62,9 +62,13 @@
 } */
 
 @media screen and (max-width: 61.938em) {
+  .bh{padding: 15px;}
+  .frame1 .details1{padding: 15px;}
+  .frame1 .details1 h1{width: 100%;font-size: 26px;line-height: 36px;margin-bottom: 10px;}
+  .lips .start-lips h2{font-size: 25px;line-height: 35px;margin-bottom: 15px;}
   .footer .socialfoot {text-align: center;}
   .frame .details{width: 95%;height: 95%;padding: 3% 3%;}
-  .frame .details h1{font-size: 19px;line-height: 29px;margin-bottom: 7px;}
+  .frame .details h1{font-size: 19px;line-height: 29px;margin-bottom: 7px;width: 100%;}
   .frame .details p{font-size: 15px;line-height: 25px;}
   .footer .footer-links-1{width: 100%;}
   .fixed-top.header-item-center{display: none;}

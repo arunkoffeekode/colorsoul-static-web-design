@@ -1,4 +1,6 @@
 
+
+
 html {
   scroll-behavior: smooth;
 }
@@ -25,10 +27,10 @@ html {
 }
 
 .topbar-area .logotext {
-  width: 186px;
+  /* width: 186px; */
   text-align: left;
 }
-
+.topbar-area .logotext img{width: 186px;}
 .topbar-area .logotext span {
   color: #86c442;
 }
@@ -245,12 +247,13 @@ header .logo-brand-text img {
 }
 .menu-item ul li:last-child{margin-right: 0px;}
 .menu-item ul li a {
-  font-size: 15px;
-  font-weight: 600;
+  font-size: 16px;
+  font-weight: 500;
+  font-family: 'Montserrat';
   text-align: left;
   text-transform: uppercase;
   color: #341c11;
-  padding: 8px 13px;
+  padding: 8px 11px;
 }
 
 .menu-item ul li a:hover {
@@ -355,7 +358,8 @@ header .offer-balck {
 }
 
 .topbar-area .register .top-cart .account-dropdown .login-details ul li a {
-  color: #1e2223;
+  color: #341c11;
+  font-family: 'Montserrat';
   font-size: 16px;
   font-weight: 500;
 }
@@ -444,6 +448,7 @@ header .offer-balck {
 
 .topbar-area .register .top-cart .account-dropdown .logout .btn-logout {
   background: #341c11;
+  font-family: 'Montserrat';
   text-align: center;
   font-size: 18px;
   color: #ffffff;
@@ -478,9 +483,10 @@ header .offer-balck {
 }
 #sticky{transition: top 0.7s;}
 .more{float: right; }
-.more .more-btn-add{font-size: 15px;
-    font-weight: 600;
+.more .more-btn-add{font-size: 16px;
+    font-weight: 500;
     text-align: left;
+    font-family: 'Montserrat';
     text-transform: uppercase;
     color: #341c11;
     border-radius: 5px;
@@ -495,7 +501,7 @@ header .offer-balck {
       background: #341c11;
       float: left;
       position: relative;
-    padding: 30px 0px 25px 0px;
+    padding: 30px 0px 20px 0px;
   }
   
   .footer .footer-links {
@@ -559,11 +565,11 @@ header .offer-balck {
   }
   .footer .footer-links-1 .footer-title  img{width: 30px;margin-bottom: 20px;}
   .footer .footer-links-1 .footer-title h5 {
-      font-size: 16px;
-      font-weight: 600;
+      font-size: 20px;
+      font-weight: 500;
       color: #ffffff;
       text-transform: uppercase;
-     
+      font-family: 'Optima';
     text-align: center;
       padding-bottom: 10px;
   }
@@ -577,8 +583,11 @@ header .offer-balck {
   .footer .footer-links-1 ul li {
       list-style-type: none;
       font-size: 14px;
+      font-weight: 200;
+      font-weight: normal;
       color: #555555;
       display: inline-block;
+      font-family: 'Montserrat-Regular';
       text-transform: uppercase;
       text-align: center;
       margin-bottom: 12px;
@@ -588,7 +597,8 @@ header .offer-balck {
   
   .footer .footer-links-1 ul li a {
       color: #ffffff;
-      transition: all .5s ease
+      transition: all .5s ease;
+    
   }
   
   /* .footer .footer-links-1 ul li a:before{ font-family:"FontAwesome"; content:'\f0a3'; font-size:12px; color:#ffffff; margin-right:10px;} */
@@ -653,16 +663,16 @@ header .offer-balck {
     text-align: center;
     padding: 15px 0;
 }
-.footer .socialfoot h4{font-size:25px;font-weight: 600;text-align: center;margin-bottom: 15px;color: #ffffff;text-transform: uppercase;font-family: 'Darker Grotesque', sans-serif;}
+.footer .socialfoot h4{font-size:24px;font-weight: 500;text-align: center;margin-bottom: 15px;color: #ffffff;text-transform: uppercase;font-family: 'Optima';}
 .footer .socialfoot ul {
     list-style: outside none none;
     margin: 0;
     padding: 0;
 }
-
+.footer .socialfoot ul li img{width: 40px;}
 .footer .socialfoot ul li {
     display: inline-block;
-    margin: 0 15px 0 0px;
+    margin: 0 25px 0 0px;
 }
 .footer .socialfoot ul li:last-child{margin: 0 0px 0 0px;}
 .footer .socialfoot ul li a {
@@ -732,30 +742,49 @@ header .offer-balck {
     color: #FFFFFF;
     font-size: 15px;
     float: left;
+    margin-top: 10px;
     width: 100%;
 }
 
 .footer .copyright p {
     margin-bottom: 10px;
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 200;
+    font-family: 'Montserrat-Regular';
 }
 /* start content */
 .lips{width: 100%;position: relative;float: left;padding: 30px 0px 30px 0px;background: #f1e3da;}
 .lips .start-lips{width: 100%;position: relative;float: left;margin-bottom: 20px;}
-.lips .start-lips h2{font-size: 30px;font-weight: 600;text-align: center;text-transform: capitalize;margin-bottom: 20px;color: #341c11;}
-.lips .start-lips p{font-size: 18px;font-weight: 400;text-align: center;line-height: 28px;color: #341c11;}
-.lips .lips-img{width: 100%;margin-bottom: 25px;border: 1px solid#341c11;padding: 5px;}
+.lips .start-lips h2{font-family: 'Optima';font-size: 50px;line-height: 60px;font-weight: 500;text-align: center;text-transform: capitalize;margin-bottom: 20px;color: #341c11;}
+.lips .start-lips p{font-size: 27px;font-weight: 400;text-align: center;line-height: 37px;color: #341c11;font-family: 'DarkerGrotesque-Medium';}
+.lips .lips-img{width: 100%;margin-bottom: 25px;}
 
 .frame {
 	text-align: center;	
 	position: relative;
+  aspect-ratio: 5/3;
+  background: url(/images/lips-game.png)center top;
+  background-size: cover;
 	/* cursor: pointer;	 */
+  padding: 50px;
+	perspective: 500px; 
+}
+.frame2 {
+	text-align: center;	
+	position: relative;
+  aspect-ratio: 5/3;
+  background: url(/images/lips-care.png)center top;
+  background-size: cover;
+	/* cursor: pointer;	 */
+  padding: 50px;
 	perspective: 500px; 
 }
 .frame img {
 	width: 100%;
 	/* height: 300px; */
 }
-.frame .details {
+/* .frame .details {
 	width: 85%;
 	height: 85%;	
 	padding: 5% 8%;
@@ -775,13 +804,18 @@ header .offer-balck {
 .frame .details {
 	transform: translate(-50%, -50%) rotateY(0deg);
 	opacity: 1;
-}
-.frame .details h1{width: 70%;margin: 0 auto;font-size: 50px;font-weight: 600;text-align: center;text-transform: uppercase;margin-bottom: 20px;line-height: 62px;color: #ffffff;}
-.frame .details p{font-size: 17px;font-weight: normal;text-align: center;line-height: 28px;color: #ffffff;}
+} */
+.frame .details h1{font-family: 'Optima';width: 50%;margin: 0 auto;font-size: 50px;font-weight: 500;text-align: center;text-transform: uppercase;margin-bottom: 25px;line-height: 62px;color: #ffffff;}
+.frame .details p{font-family: 'DarkerGrotesque-Regular';font-size: 27px;font-weight: normal;text-align: center;line-height: 37px;color: #ffffff;}
+.frame .details{position: relative;width: 100%;border: 1px solid#ffffff;background: rgba(46, 26, 17,0.8);	display: flex;align-items: center;padding: 50px;aspect-ratio: 5/3;}
+.frame2 .details h1{font-family: 'Optima';width: 50%;margin: 0 auto;font-size: 50px;font-weight: 500;text-align: center;text-transform: uppercase;margin-bottom: 25px;line-height: 62px;color: #ffffff;}
+.frame2 .details p{font-family: 'DarkerGrotesque-Regular';font-size: 27px;font-weight: normal;text-align: center;line-height: 37px;color: #ffffff;}
+.frame2 .details{position: relative;width: 100%;border: 1px solid#ffffff;background: rgba(46, 26, 17,0.8);	display: flex;align-items: center;padding: 50px;aspect-ratio: 5/3;}
+
 .frame1 .details1 {
 	/* width: 95%;
 	height: 80%;	 */
-	padding: 12% 12%;
+	padding: 7% 7%;
 	position: relative;
 	content: "";
 	top: 50%;
@@ -789,7 +823,9 @@ header .offer-balck {
 	transform: translate(-50%, -50%) rotateY(90deg);
   border: 2px solid#ffffff;
 	transform-origin: 50%;
-	background: rgba(46, 26, 17,0.6);	
+  background: linear-gradient(0deg, rgba(54, 30, 17, 0.15), rgba(54, 30, 17, 0.15)), rgba(0, 0, 0, 0.15);	
+  box-shadow: 20px 10px 50px rgba(0, 0, 0, 0.15);
+  backdrop-filter: blur(8px);
 	opacity: 0;
 	transition: all 0.4s ease-in;
 	/* display: flex;
@@ -799,8 +835,8 @@ header .offer-balck {
 	transform: translate(-50%, -50%) rotateY(0deg);
 	opacity: 1;
 }
-.frame1 .details1 h1{width: 70%;margin: 0 auto;font-size: 50px;font-weight: 600;text-align: center;text-transform: uppercase;margin-bottom: 20px;line-height: 60px;color: #ffffff;}
-.frame1 .details1 p{font-size: 17px;font-weight: normal;text-align: center;line-height: 28px;color: #ffffff;margin-bottom: 20px;}
+.frame1 .details1 h1{font-family: 'NewYork'!important;width: 70%;margin: 0 auto;font-size: 80px;font-weight: 400;text-align: center;text-transform: uppercase;margin-bottom: 20px;line-height: 80px;color: #ffffff;}
+.frame1 .details1 p{font-family: 'DarkerGrotesque-Regular';font-size: 30px;font-weight: normal;text-align: center;line-height: 40px;color: #ffffff;margin-bottom: 20px;}
 
 .animate {
   -webkit-animation-duration: 1s;
@@ -927,6 +963,6 @@ header .offer-balck {
   /* height: 100vh; */
   padding: 50px;
   position: relative;
-  background: url(../images/home-care.jpg) no-repeat center top;
+  background: url(../images/home-care.png) no-repeat center top;
   background-size: cover;
 }

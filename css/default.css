@@ -1,13 +1,19 @@
 @charset "utf-8"; /* CSS Document */
 
+@font-face{font-family: 'DarkerGrotesque-Regular';src: url('/Font/DarkerGrosteque/DarkerGrotesque-Regular.ttf'); }
+@font-face{font-family: 'DarkerGrotesque-Medium';src: url('/Font/DarkerGrosteque/DarkerGrotesque-Medium.ttf'); }
+@font-face{font-family: 'NewYork';src: url('/Font/NewYork.otf'); }
+@font-face{font-family: 'Montserrat';src: url('/Font/Montserrat/Montserrat-Medium.ttf'); }
+@font-face{font-family: 'Montserrat-Regular';src: url('/Font/Montserrat/Montserrat-Regular.ttf'); }
+@font-face{font-family: 'Optima';src: url('/Font/FontsFree-Net-Optima-Medium.ttf'); }
 
 
-body{font-family: 'Montserrat', sans-serif; font-weight:normal; background:#ffffff; -webkit-font-smoothing: antialiased; margin:0px; padding:0px; border:none; outline:none; overflow-x:hidden; }
+body{font-family: 'DarkerGrotesque-Regular'; font-weight:normal; background:#ffffff; -webkit-font-smoothing: antialiased; margin:0px; padding:0px; border:none; outline:none; overflow-x:hidden; }
 a{text-decoration:none; cursor:pointer; }
 a:hover,a:focus,a:visited{text-decoration:none; outline:none; }
-h1,h2,h3,h4,h5,h6{font-family: 'Montserrat', sans-serif; font-weight:normal; margin:0px; background:none; }
+h1,h2,h3,h4,h5,h6{font-family: 'Montserrat-Light'; font-weight:normal; margin:0px; background:none; }
 input,button,select,textarea{font-family: 'Montserrat', sans-serif;}
-p{position:relative; line-height:normal; margin-bottom:0px;font-family: 'Montserrat', sans-serif;}
+p{position:relative; line-height:normal; margin-bottom:0px;font-family: 'DarkerGrotesque-Regular';}
 ul,li{list-style:none; padding:0px; margin:0px; }
 form .form-control:focus{ border-color: #ced4da; box-shadow: none; }
 .top-margin-10{margin-top:10px; }

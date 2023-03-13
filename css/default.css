@@ -1,11 +1,11 @@
 @charset "utf-8"; /* CSS Document */
 
-@font-face{font-family: 'DarkerGrotesque-Regular';src: url('/Font/DarkerGrosteque/DarkerGrotesque-Regular.ttf'); }
-@font-face{font-family: 'DarkerGrotesque-Medium';src: url('/Font/DarkerGrosteque/DarkerGrotesque-Medium.ttf'); }
-@font-face{font-family: 'NewYork';src: url('/Font/NewYork.otf'); }
-@font-face{font-family: 'Montserrat';src: url('/Font/Montserrat/Montserrat-Medium.ttf'); }
-@font-face{font-family: 'Montserrat-Regular';src: url('/Font/Montserrat/Montserrat-Regular.ttf'); }
-@font-face{font-family: 'Optima';src: url('/Font/FontsFree-Net-Optima-Medium.ttf'); }
+@font-face{font-family: 'DarkerGrotesque-Regular';src: url('../Font/DarkerGrosteque/DarkerGrotesque-Regular.ttf'); }
+@font-face{font-family: 'DarkerGrotesque-Medium';src: url('../Font/DarkerGrosteque/DarkerGrotesque-Medium.ttf'); }
+@font-face{font-family: 'NewYork';src: url('../Font/NewYork.otf'); }
+@font-face{font-family: 'Montserrat';src: url('../Font/Montserrat/Montserrat-Medium.ttf'); }
+@font-face{font-family: 'Montserrat-Regular';src: url('../Font/Montserrat/Montserrat-Regular.ttf'); }
+@font-face{font-family: 'Optima';src: url('../Font/FontsFree-Net-Optima-Medium.ttf'); }
 
 
 body{font-family: 'DarkerGrotesque-Regular'; font-weight:normal; background:#ffffff; -webkit-font-smoothing: antialiased; margin:0px; padding:0px; border:none; outline:none; overflow-x:hidden; }

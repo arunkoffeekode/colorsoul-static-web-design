@@ -13,9 +13,9 @@ html {
 }
 @media (min-width: 1200px) {
   .container-fluid {
-    max-width: 1320px;
-    /* max-width: 1500px; */
-
+    /* max-width: 1320px; */
+    padding-left: 25px;
+    padding-right: 25px;
   }
 }
 .desktop {
@@ -99,7 +99,7 @@ html {
 
 .topbar-area .register ul li {
   display: inline-block;
-  margin-right: 34px;
+  margin-right: 33px;
   /* margin-right: 21px; */
 }
 
@@ -242,8 +242,8 @@ header .logo-brand-text img {
 }
 .menu-item ul li {
   display: inline;
-  /* margin-right: 30px; */
-  margin-right: 14px;
+  margin-right: 27px;
+  /* margin-right: 14px; */
 }
 .menu-item ul li:last-child{margin-right: 0px;}
 .menu-item ul li a {
@@ -253,15 +253,15 @@ header .logo-brand-text img {
   text-align: left;
   text-transform: uppercase;
   color: #341c11;
-  padding: 8px 11px;
+  /* padding: 8px 11px; */
 }
 
-.menu-item ul li a:hover {
+/* .menu-item ul li a:hover {
   background: #341c11;
   color: #ffffff;
   border-radius: 9px;
   transition: 0.6s linear;
-}
+} */
 
 header .offer-balck {
   float: right;
@@ -490,7 +490,8 @@ header .offer-balck {
     text-transform: uppercase;
     color: #341c11;
     border-radius: 5px;
-    padding: 6px 20px;
+    /* padding: 6px 20px; */
+    padding: 6px 0px;
     background: transparent;border: none;outline: none;}
 
 
@@ -501,7 +502,7 @@ header .offer-balck {
       background: #341c11;
       float: left;
       position: relative;
-    padding: 30px 0px 20px 0px;
+    padding: 40px 0px 20px 0px;
   }
   
   .footer .footer-links {
@@ -565,13 +566,13 @@ header .offer-balck {
   }
   .footer .footer-links-1 .footer-title  img{width: 30px;margin-bottom: 20px;}
   .footer .footer-links-1 .footer-title h5 {
-      font-size: 20px;
+      font-size: 22px;
       font-weight: 500;
       color: #ffffff;
       text-transform: uppercase;
       font-family: 'Optima';
     text-align: center;
-      padding-bottom: 10px;
+      /* padding-bottom: 10px; */
   }
   
   /* .footer .footer-links-1 .footer-title h5:after{ content:''; background:#ffffff; width:100%; height:1px; float:left; margin-top:12px;} */
@@ -754,11 +755,11 @@ header .offer-balck {
     font-family: 'Montserrat-Regular';
 }
 /* start content */
-.lips{width: 100%;position: relative;float: left;padding: 30px 0px 30px 0px;background: #f1e3da;}
+.lips{width: 100%;position: relative;float: left;padding: 40px 0px 30px 0px;background: #f1e3da;}
 .lips .start-lips{width: 100%;position: relative;float: left;margin-bottom: 20px;}
-.lips .start-lips h2{font-family: 'Optima';font-size: 50px;line-height: 60px;font-weight: 500;text-align: center;text-transform: capitalize;margin-bottom: 20px;color: #341c11;}
-.lips .start-lips p{font-size: 27px;font-weight: 400;text-align: center;line-height: 37px;color: #341c11;font-family: 'DarkerGrotesque-Medium';}
-.lips .lips-img{width: 100%;margin-bottom: 25px;}
+.lips .start-lips h2{font-family: 'Optima';font-size: 50px;line-height: 60px;font-weight: 500;text-align: center;text-transform: capitalize;margin-bottom: 7px;color: #341c11;}
+.lips .start-lips p{font-size: 32px;font-weight: 400;text-align: center;line-height: 42px;color: #341c11;font-family: 'DarkerGrotesque-Medium';}
+.lips .lips-img{width: 100%;margin-bottom: 40px;}
 
 .frame {
 	text-align: center;	
@@ -805,21 +806,22 @@ header .offer-balck {
 	transform: translate(-50%, -50%) rotateY(0deg);
 	opacity: 1;
 } */
-.frame .details h1{font-family: 'Optima';width: 50%;margin: 0 auto;font-size: 50px;font-weight: 500;text-align: center;text-transform: uppercase;margin-bottom: 25px;line-height: 62px;color: #ffffff;}
-.frame .details p{font-family: 'DarkerGrotesque-Regular';font-size: 27px;font-weight: normal;text-align: center;line-height: 37px;color: #ffffff;}
+.frame .details h1{font-family: 'Optima';margin: 0 auto;font-size: 55px;font-weight: 500;text-align: center;text-transform: uppercase;margin-bottom: 25px;line-height: 65px;color: #ffffff;}
+.frame .details p{font-family: 'DarkerGrotesque-Regular';font-size: 31px;font-weight: normal;text-align: center;line-height: 41px;color: #ffffff;}
 .frame .details{position: relative;width: 100%;border: 1px solid#ffffff;background: rgba(46, 26, 17,0.8);	display: flex;align-items: center;padding: 50px;aspect-ratio: 5/3;}
-.frame2 .details h1{font-family: 'Optima';width: 50%;margin: 0 auto;font-size: 50px;font-weight: 500;text-align: center;text-transform: uppercase;margin-bottom: 25px;line-height: 62px;color: #ffffff;}
-.frame2 .details p{font-family: 'DarkerGrotesque-Regular';font-size: 27px;font-weight: normal;text-align: center;line-height: 37px;color: #ffffff;}
+.frame2 .details h1{font-family: 'Optima';margin: 0 auto;font-size: 55px;font-weight: 500;text-align: center;text-transform: uppercase;margin-bottom: 25px;line-height: 65px;color: #ffffff;}
+.frame2 .details p{font-family: 'DarkerGrotesque-Regular';font-size: 31px;font-weight: normal;text-align: center;line-height: 41px;color: #ffffff;}
 .frame2 .details{position: relative;width: 100%;border: 1px solid#ffffff;background: rgba(46, 26, 17,0.8);	display: flex;align-items: center;padding: 50px;aspect-ratio: 5/3;}
 
 .frame1 .details1 {
 	/* width: 95%;
 	height: 80%;	 */
-	padding: 7% 7%;
+	padding: 5% 7%;
 	position: relative;
 	content: "";
 	top: 50%;
 	left: 50%;
+
 	transform: translate(-50%, -50%) rotateY(90deg);
   border: 2px solid#ffffff;
 	transform-origin: 50%;
@@ -835,8 +837,8 @@ header .offer-balck {
 	transform: translate(-50%, -50%) rotateY(0deg);
 	opacity: 1;
 }
-.frame1 .details1 h1{font-family: 'NewYork'!important;width: 70%;margin: 0 auto;font-size: 80px;font-weight: 400;text-align: center;text-transform: uppercase;margin-bottom: 20px;line-height: 80px;color: #ffffff;}
-.frame1 .details1 p{font-family: 'DarkerGrotesque-Regular';font-size: 30px;font-weight: normal;text-align: center;line-height: 40px;color: #ffffff;margin-bottom: 20px;}
+.frame1 .details1 h1{font-family: 'NewYork'!important;margin: 0 auto;font-size: 90px;font-weight: 400;text-align: center;text-transform: uppercase;margin-bottom: 20px;line-height: 100px;color: #ffffff;}
+.frame1 .details1 p{font-family: 'DarkerGrotesque-Regular';font-size: 34px;font-weight: normal;text-align: center;line-height: 44px;color: #ffffff;margin-bottom: 20px;}
 
 .animate {
   -webkit-animation-duration: 1s;
@@ -845,9 +847,9 @@ header .offer-balck {
   animation-fill-mode: both;
 }
 .one {
-  -webkit-animation-delay: 0.3s;
-  -moz-animation-delay: 0.3s;
-  animation-delay: 0.3s;
+  -webkit-animation-delay: 0.0s;
+  -moz-animation-delay: 0.0s;
+  animation-delay: 0.0s;
 }
 /*==== FADE IN UP ===*/
 @-webkit-keyframes fadeInUp {
@@ -963,6 +965,7 @@ header .offer-balck {
   /* height: 100vh; */
   padding: 50px;
   position: relative;
+  aspect-ratio: 7/3;
   background: url(../images/home-care.png) no-repeat center top;
   background-size: cover;
 }

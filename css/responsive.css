@@ -4,7 +4,11 @@
 /* Extra large devices (large desktops, 1200px and up) */
 
 @media (min-width: 992px) and (max-width: 1200px) {
+  .menu-item ul li a{font-size: 11px;}
+  .menu-item ul li{margin-right: 15px;}
+  .more .more-btn-add{font-size: 11px;padding: 8px 9px;}
 }
+
 
 /* width: 991px; */
 /* @media screen and (max-width: 600px) {
@@ -62,6 +66,7 @@
 } */
 
 @media screen and (max-width: 61.938em) {
+  
   .bh{padding: 15px;}
   .frame{padding: 15px;}
   .frame .details p{font-size: 23px;line-height: 33px;}
@@ -1043,10 +1048,12 @@ text-align: center;
   .choice-box .nail-paint-details-left .nail-paint-info::after {
     display: none;
   }
+  
 }
 
 /* nest-hub-media-query */
 @media screen and (min-width: 1024px) and (-webkit-min-device-pixel-ratio: 0) {
+
   .login
     .login-right-section
     .forms-section
@@ -1061,17 +1068,20 @@ text-align: center;
 /*============	Media 768Px Start ============ */
 
 @media (min-width: 768px) and (max-width: 991px) {
+ 
 }
 
 /* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
 
 @media (min-width: 320px) and (max-width: 768px) {
+
   .login .profile .coupon-detail .coupon-offer {
     display: flex !important;
   }
 }
 
 @media screen and (max-width: 600px) {
+  
   .coupons-box .order-informationtable {
     border: 0;
   }
@@ -1127,9 +1137,12 @@ text-align: center;
 }
 
 @media (min-width: 768px) {
+ 
 }
 
+
 @media (min-width: 768px) and (max-width: 991px) {
+  
   .topbar-area .logo-ul {
     display: none;
   }
@@ -1151,6 +1164,7 @@ text-align: center;
 
 /*============ Media 300Px Star ============ */
 @media only screen and (max-width: 540px) {
+  
   .stellarnav {
     overflow: hidden;
     display: block;
@@ -1375,6 +1389,7 @@ text-align: center;
 }
 
 @media screen and (max-width: 600px) {
+  
   .topbar-area .search{margin-top: 20px;}
   .coupons-box .order-information table td::before {
     content: attr(data-label);

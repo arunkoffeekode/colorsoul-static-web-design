@@ -164,8 +164,8 @@ html {
   height: 40px;
   font-size: 15px;
   color: #000000;
-  border-top-left-radius: 5px;
-  border-bottom-left-radius: 5px;
+  border-top-left-radius: 30px;
+  border-bottom-left-radius: 30px;
   padding: 19px 35px;
   font-weight: 300;
   outline: none;
@@ -176,7 +176,7 @@ html {
   background-color: #ffffff;
   color: #000000;
   outline: none;
-  border-radius: 5px;
+  border-radius: 30px;
   margin-left: -25px;
   border: none;
   font-size: 16px;
@@ -193,7 +193,7 @@ html {
 }
 
 header {
-  padding: 9px 0px 9px 0px;
+  padding: 3px 0px 3px 0px;
   position: relative;
   width: 100%;
   /* border-top: 1px solid #454545; */
@@ -758,7 +758,7 @@ header .offer-balck {
 .lips{width: 100%;position: relative;float: left;padding: 40px 0px 30px 0px;background: #f1e3da;}
 .lips .start-lips{width: 100%;position: relative;float: left;margin-bottom: 20px;}
 .lips .start-lips h2{font-family: 'Optima';font-size: 50px;line-height: 60px;font-weight: 500;text-align: center;text-transform: capitalize;margin-bottom: 7px;color: #341c11;}
-.lips .start-lips p{font-size: 32px;font-weight: 400;text-align: center;line-height: 42px;color: #341c11;font-family: 'DarkerGrotesque-Medium';}
+.lips .start-lips p{font-size: 31px;font-weight: 400;text-align: center;line-height: 41px;color: #341c11;font-family: 'DarkerGrotesque-Medium';}
 .lips .lips-img{width: 100%;margin-bottom: 40px;}
 
 .frame {
@@ -810,7 +810,7 @@ header .offer-balck {
 .frame .details p{font-family: 'DarkerGrotesque-Regular';font-size: 31px;font-weight: normal;text-align: center;line-height: 41px;color: #ffffff;}
 .frame .details{position: relative;width: 100%;border: 1px solid#ffffff;background: rgba(46, 26, 17,0.8);	display: flex;align-items: center;padding: 50px;aspect-ratio: 5/3;}
 .frame2 .details h1{font-family: 'Optima';margin: 0 auto;font-size: 55px;font-weight: 500;text-align: center;text-transform: uppercase;margin-bottom: 25px;line-height: 65px;color: #ffffff;}
-.frame2 .details p{font-family: 'DarkerGrotesque-Regular';font-size: 31px;font-weight: normal;text-align: center;line-height: 41px;color: #ffffff;}
+.frame2 .details p{font-family: 'DarkerGrotesque-Regular';font-size: 32px;font-weight: normal;text-align: center;line-height: 42px;color: #ffffff;}
 .frame2 .details{position: relative;width: 100%;border: 1px solid#ffffff;background: rgba(46, 26, 17,0.8);	display: flex;align-items: center;padding: 50px;aspect-ratio: 5/3;}
 
 .frame1 .details1 {
@@ -838,11 +838,11 @@ header .offer-balck {
 	opacity: 1;
 }
 .frame1 .details1 h1{font-family: 'NewYork'!important;margin: 0 auto;font-size: 90px;font-weight: 400;text-align: center;text-transform: uppercase;margin-bottom: 20px;line-height: 100px;color: #ffffff;}
-.frame1 .details1 p{font-family: 'DarkerGrotesque-Regular';font-size: 34px;font-weight: normal;text-align: center;line-height: 44px;color: #ffffff;margin-bottom: 20px;}
+.frame1 .details1 p{font-family: 'DarkerGrotesque-Regular';font-size: 32px;font-weight: normal;text-align: center;line-height: 42px;color: #ffffff;}
 
 .animate {
-  -webkit-animation-duration: 1s;
-  animation-duration: 1s;
+  -webkit-animation-duration: 0.5s;
+  animation-duration: 0.5s;
   -webkit-animation-fill-mode: both;
   animation-fill-mode: both;
 }
@@ -966,6 +966,6 @@ header .offer-balck {
   padding: 50px;
   position: relative;
   aspect-ratio: 7/3;
-  background: url(../images/home-care.png) no-repeat center top;
+  background: url(../images/home-care.jpg) no-repeat center top;
   background-size: cover;
 }

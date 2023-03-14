@@ -66,7 +66,7 @@
 } */
 
 @media screen and (max-width: 61.938em) {
-  
+  .lips .start-lips p{font-size: 25px;line-height: 35px;}
   .bh{padding: 15px;}
   .frame{padding: 15px;}
   .frame .details p{font-size: 23px;line-height: 33px;}
@@ -78,7 +78,7 @@
   .frame1 .details1{padding: 15px;}
   .frame1 .details1 h1{width: 100%;font-size: 35px;line-height: 35px;margin-bottom: 10px;}
   .frame1 .details1 p{font-size: 25px;line-height: 35px;}
-  .lips .start-lips h2{font-size: 30px;line-height: 40px;margin-bottom: 15px;}
+  .lips .start-lips h2{font-size: 30px;line-height: 40px;}
   .footer .socialfoot {text-align: center;}
   .frame .details{padding: 20px}
   .frame2 .details{padding: 20px}

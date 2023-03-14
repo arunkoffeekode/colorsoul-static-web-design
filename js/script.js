@@ -9,8 +9,8 @@
       if ($(window).width() > 992) {
         var navbar_height = $('.navbar').outerHeight();
         $(window).scroll(function() {
-          // if ($(this).scrollTop() > 150) {
-            if ($(this).scrollTop() > 50) {
+          if ($(this).scrollTop() > 120) {
+            // if ($(this).scrollTop() > -0.1) {
             $('.navbar-wrap').css('height', navbar_height + 'px');
             $('#navbar_top').addClass("fixed-top");
             $('#navbar_top').removeClass("d-none");
